@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+fastapi
+uvicorn
+openpyxl
+pickle-mixin
+sqlite3  # Note: comes with Python
