@@ -1,0 +1,25 @@
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Place your dataset files:
+
+user-evobee.csv
+
+Order-ID-evobee.xlsx
+into the data/ directory.
+
+Run the server:
+
+bash
+Copy
+Edit
+uvicorn evobee_segmentation.segmentation:app --reload
+Access the API:
+
+arduino
+Copy
+Edit
+http://127.0.0.1:8000/segment/{user_id}
